@@ -1,0 +1,11 @@
+SQLAlchemy>=2.0
+PyMySQL>=1.1
+Flask>=3.0
+
+# ── Optional — only needed if you enable the matching feature/plugin ────────
+pandas>=2.0    # PLUGINS["csv"] = True (loads .csv files as queryable tables)
+redis>=5.0     # FEATURES["cache"] = True and CACHE["type"] = "redis"
+
+# Uncomment whichever driver matches your database if not using MySQL:
+# psycopg2-binary>=2.9   # PostgreSQL
+# pyodbc>=5.0            # SQL Server
